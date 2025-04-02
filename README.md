@@ -6,6 +6,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Hash Table
 |  |
 | ------- |
+| [0001-two-sum](https://github.com/BajorskiPatrick/Leet-Code/tree/master/0001-two-sum) |
 | [0003-longest-substring-without-repeating-characters](https://github.com/BajorskiPatrick/Leet-Code/tree/master/0003-longest-substring-without-repeating-characters) |
 ## String
 |  |
@@ -29,4 +30,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0014-longest-common-prefix](https://github.com/BajorskiPatrick/Leet-Code/tree/master/0014-longest-common-prefix) |
+## Array
+|  |
+| ------- |
+| [0001-two-sum](https://github.com/BajorskiPatrick/Leet-Code/tree/master/0001-two-sum) |
 <!---LeetCode Topics End-->
