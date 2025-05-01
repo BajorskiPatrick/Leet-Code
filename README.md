@@ -38,6 +38,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0001-two-sum](https://github.com/BajorskiPatrick/Leet-Code/tree/master/0001-two-sum) |
+| [2180-maximum-number-of-tasks-you-can-assign](https://github.com/BajorskiPatrick/Leet-Code/tree/master/2180-maximum-number-of-tasks-you-can-assign) |
 ## Math
 |  |
 | ------- |
@@ -52,4 +53,24 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0002-add-two-numbers](https://github.com/BajorskiPatrick/Leet-Code/tree/master/0002-add-two-numbers) |
+## Binary Search
+|  |
+| ------- |
+| [2180-maximum-number-of-tasks-you-can-assign](https://github.com/BajorskiPatrick/Leet-Code/tree/master/2180-maximum-number-of-tasks-you-can-assign) |
+## Greedy
+|  |
+| ------- |
+| [2180-maximum-number-of-tasks-you-can-assign](https://github.com/BajorskiPatrick/Leet-Code/tree/master/2180-maximum-number-of-tasks-you-can-assign) |
+## Queue
+|  |
+| ------- |
+| [2180-maximum-number-of-tasks-you-can-assign](https://github.com/BajorskiPatrick/Leet-Code/tree/master/2180-maximum-number-of-tasks-you-can-assign) |
+## Sorting
+|  |
+| ------- |
+| [2180-maximum-number-of-tasks-you-can-assign](https://github.com/BajorskiPatrick/Leet-Code/tree/master/2180-maximum-number-of-tasks-you-can-assign) |
+## Monotonic Queue
+|  |
+| ------- |
+| [2180-maximum-number-of-tasks-you-can-assign](https://github.com/BajorskiPatrick/Leet-Code/tree/master/2180-maximum-number-of-tasks-you-can-assign) |
 <!---LeetCode Topics End-->
