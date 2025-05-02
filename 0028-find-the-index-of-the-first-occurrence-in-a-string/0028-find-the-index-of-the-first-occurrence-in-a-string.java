@@ -8,19 +8,15 @@ class Solution {
         }
         while (i <= n-m) {
             int j = 0;
-            if (haystack.charAt(i++) == needle.charAt(j++)) {
-                int start = i-1;
-                while (i < n && j < m && haystack.charAt(i) == needle.charAt(j)) {
-                    i++;
+            if (haystack.charAt(i) == needle.charAt(j++)) {
+                while (j < m && haystack.charAt(i+j) == needle.charAt(j)) {
                     j++;
                 }
                 if (j == m) {
-                    return start;
-                }
-                else {
-                    i = start + 1;
+                    return i;
                 }
             }
+            i++;
         }
         return -1;
     }
