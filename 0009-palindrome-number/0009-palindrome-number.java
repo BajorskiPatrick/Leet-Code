@@ -1,21 +1,19 @@
 class Solution {
     public boolean isPalindrome(int x) {
-        if (x < 0) {
-            return false;
-        }
-        
         String s = Integer.toString(x);
         int left = 0;
         int right = s.length()-1;
+        boolean res = true;
         while (left < right) {
             if (s.charAt(left) == s.charAt(right)) {
                 left++;
                 right--;
             }
             else {
-                return false;
+                res = false;
+                break;
             }
         }
-        return true;
+        return res;
     }
 }
