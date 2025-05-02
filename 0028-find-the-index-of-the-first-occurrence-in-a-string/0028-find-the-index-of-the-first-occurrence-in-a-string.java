@@ -3,7 +3,10 @@ class Solution {
         int i = 0;
         int n = haystack.length();
         int m = needle.length();
-        while (i < n) {
+        if (n < m) {
+            return -1;
+        }
+        while (i <= n-m) {
             int j = 0;
             if (haystack.charAt(i++) == needle.charAt(j++)) {
                 int start = i-1;
