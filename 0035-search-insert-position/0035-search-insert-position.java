@@ -14,10 +14,7 @@ class Solution {
                 left = mid + 1;
             }
         }
-        if (nums[left] < target) {
-            return left + 1;
-        }
-        
-        return left;
+
+        return nums[left] < target ? left + 1 : left;
     } 
 }
