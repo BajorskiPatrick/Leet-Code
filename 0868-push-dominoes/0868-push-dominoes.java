@@ -4,9 +4,8 @@ class Solution {
         int i = 0;
         char[] domArray = dominoes.toCharArray();
         while (i < n) {
-            char state = domArray[i];
             int newIterator;
-            if (state == 'L' || state == 'R') {
+            if (domArray[i] == 'L' || domArray[i] == 'R') {
                 i++;
                 continue;
             }
@@ -33,46 +32,21 @@ class Solution {
                     }
                 }
                 else {
-                    while (i < j-2) {
+                    while (i <= j-2) {
                         if (domArray[i] != 'R' && domArray[j] != 'L') {
-                            i++;
-                            j--;
                             break;
                         }
-                        
+                        if (i == j-2 && domArray[i] == 'R' && domArray[j] == 'L') {
+                            break;
+                        }                 
                         if (domArray[i] == 'R') {
-                            i++;
-                            domArray[i] = 'R';
-                        }
-                        
+                            domArray[++i] = 'R';
+                        }      
                         if (domArray[j] == 'L') {
-                            j--;
-                            domArray[j] = 'L';
-                        }
-
-                        
-                    }
-
-                    if (i == j-2) {
-                        if (i >= 0) {
-                            if (domArray[i] == 'R' && domArray[j] == 'R') {
-                                i++;
-                                domArray[i] = 'R';
-                            }
-                            else if (domArray[i] == 'L' && domArray[j] == 'L') {
-                                i++;
-                                domArray[i] = 'L';
-                            }
-                        }
-                        else {
-                            if (domArray[j] == 'L') {
-                                j--;
-                                domArray[j] = 'L';
-                            }
+                            domArray[--j] = 'L';
                         }
                     }
                 }
-
                 i = newIterator;
             }
         }
