@@ -18,12 +18,10 @@ class Solution {
         while (list1 != null && list2 != null) {
             result.next = new ListNode();
             if (list1.val <= list2.val) {
-                System.out.println("L1: " + list1.val);
                 result.val = list1.val;
                 list1 = list1.next;
             }
             else {
-                System.out.println("L2: " + list2.val);
                 result.val = list2.val;
                 list2 = list2.next;
             }
@@ -38,7 +36,6 @@ class Solution {
                 result.next = new ListNode();
                 result = result.next;
             }
-            System.out.println("L1 then: " + list1.val);
             result.val = list1.val;
             list1 = list1.next;
         }
@@ -50,7 +47,6 @@ class Solution {
                 result.next = new ListNode();
                 result = result.next;
             }
-            System.out.println("L2 then: " + list2.val);
             result.val = list2.val;
             list2 = list2.next;
         }
