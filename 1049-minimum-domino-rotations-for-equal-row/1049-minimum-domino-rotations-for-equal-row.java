@@ -2,27 +2,23 @@ class Solution {
     public int minDominoRotations(int[] tops, int[] bottoms) {
         int len = tops.length;
         int min = len;
-        for (int i = 1; i <= 6; i++) {
-            int topCounter = 0;
-            int bottomCounter = 0;
-            int common = 0;
-            for (int j = 0; j < len; j++) {
-                if (tops[j] == bottoms[j] && tops[j] == i) {
-                    common++;
-                    continue;
-                }
-                if (tops[j] == i) {
-                    topCounter++;
-                }
-                if (bottoms[j] == i) {
-                    bottomCounter++;
-                }
-            }
-            if (topCounter + bottomCounter + common == len) {
-                min = Math.min(min, Math.min(topCounter, bottomCounter));
+        int[] topOccurs = new int[7];
+        int[] bottomOccurs = new int[7];
+        int[] commonOccurs = new int[7];
+        for (int i = 0; i < len; i++) {
+            topOccurs[tops[i]]++;
+            bottomOccurs[bottoms[i]]++;
+            if (tops[i] == bottoms[i]) {
+                commonOccurs[tops[i]]++;
             }
         }
 
-        return min < len ? min : -1;
+        for (int i = 0; i < 7; i++) {
+            if (topOccurs[i] + bottomOccurs[i] - commonOccurs[i] == len) {
+                return Math.min(topOccurs[i], bottomOccurs[i]) - commonOccurs[i];
+            }
+        }
+
+        return -1;
     }
 }
