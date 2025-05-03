@@ -20,9 +20,6 @@ class Solution {
             }
             if (topCounter + bottomCounter + common == len) {
                 min = Math.min(min, Math.min(topCounter, bottomCounter));
-                if (min == 0) {
-                    break;
-                }
             }
         }
 
