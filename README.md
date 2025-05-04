@@ -9,6 +9,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0001-two-sum](https://github.com/BajorskiPatrick/Leet-Code/tree/master/0001-two-sum) |
 | [0003-longest-substring-without-repeating-characters](https://github.com/BajorskiPatrick/Leet-Code/tree/master/0003-longest-substring-without-repeating-characters) |
 | [0013-roman-to-integer](https://github.com/BajorskiPatrick/Leet-Code/tree/master/0013-roman-to-integer) |
+| [1227-number-of-equivalent-domino-pairs](https://github.com/BajorskiPatrick/Leet-Code/tree/master/1227-number-of-equivalent-domino-pairs) |
 ## String
 |  |
 | ------- |
@@ -50,6 +51,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0027-remove-element](https://github.com/BajorskiPatrick/Leet-Code/tree/master/0027-remove-element) |
 | [0035-search-insert-position](https://github.com/BajorskiPatrick/Leet-Code/tree/master/0035-search-insert-position) |
 | [1049-minimum-domino-rotations-for-equal-row](https://github.com/BajorskiPatrick/Leet-Code/tree/master/1049-minimum-domino-rotations-for-equal-row) |
+| [1227-number-of-equivalent-domino-pairs](https://github.com/BajorskiPatrick/Leet-Code/tree/master/1227-number-of-equivalent-domino-pairs) |
 | [2180-maximum-number-of-tasks-you-can-assign](https://github.com/BajorskiPatrick/Leet-Code/tree/master/2180-maximum-number-of-tasks-you-can-assign) |
 ## Math
 |  |
@@ -98,4 +100,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0028-find-the-index-of-the-first-occurrence-in-a-string](https://github.com/BajorskiPatrick/Leet-Code/tree/master/0028-find-the-index-of-the-first-occurrence-in-a-string) |
+## Counting
+|  |
+| ------- |
+| [1227-number-of-equivalent-domino-pairs](https://github.com/BajorskiPatrick/Leet-Code/tree/master/1227-number-of-equivalent-domino-pairs) |
 <!---LeetCode Topics End-->
