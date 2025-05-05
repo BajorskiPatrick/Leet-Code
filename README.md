@@ -38,6 +38,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0005-longest-palindromic-substring](https://github.com/BajorskiPatrick/Leet-Code/tree/master/0005-longest-palindromic-substring) |
+| [0806-domino-and-tromino-tiling](https://github.com/BajorskiPatrick/Leet-Code/tree/master/0806-domino-and-tromino-tiling) |
 | [0868-push-dominoes](https://github.com/BajorskiPatrick/Leet-Code/tree/master/0868-push-dominoes) |
 ## Trie
 |  |
